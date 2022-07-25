@@ -1,7 +1,6 @@
 import styles from "./PolicyDoument.module.scss";
 import { IPolicyDocumentProps } from "./IPolicyDocumentProps";
 import * as React from "react";
-import { DefaultButton, PrimaryButton, Stack } from "office-ui-fabric-react";
 export default class PolicyDocument extends React.Component<
   IPolicyDocumentProps,
   {}
@@ -513,7 +512,6 @@ export default class PolicyDocument extends React.Component<
           will ask you to verify your identity. Contact: Privacy Officer Email:
           legal@wasai.co Office: 165 11th St, San Francisco, CA 94103
         </div>
-        <DefaultButton text="Agree and Continue" />
       </div>
     );
   }

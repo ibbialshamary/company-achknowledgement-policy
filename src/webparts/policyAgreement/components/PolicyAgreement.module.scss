@@ -8,6 +8,12 @@
   &.teams {
     font-family: $ms-font-family-fallbacks;
   }
+
+  .agreeButton {
+    display: flex;
+    justify-content: end;
+    margin: 14px 0;
+  }
 }
 
 .welcome {
