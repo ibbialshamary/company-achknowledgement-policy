@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "company-achknowledgement-policy-client-side-solution",
+    "id": "00440615-780f-4df7-92ec-dce85b82b21b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "company-achknowledgement-policy description"
+      },
+      "longDescription": {
+        "default": "company-achknowledgement-policy description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "company-achknowledgement-policy Feature",
+        "description": "The feature that activates elements of the company-achknowledgement-policy solution.",
+        "id": "00e5b272-9026-4bae-9ca2-f36bbb243a7a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/company-achknowledgement-policy.sppkg"
+  }
+}

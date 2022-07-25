@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "company-achknowledgement-policy",
+    "libraryId": "00440615-780f-4df7-92ec-dce85b82b21b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "company-achknowledgement-policy",
+    "solutionShortDescription": "company-achknowledgement-policy description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

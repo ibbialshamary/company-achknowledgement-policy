@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "policy-agreement-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/policyAgreement/PolicyAgreementWebPart.js",
+          "manifest": "./src/webparts/policyAgreement/PolicyAgreementWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PolicyAgreementWebPartStrings": "lib/webparts/policyAgreement/loc/{locale}.js"
+  }
+}
